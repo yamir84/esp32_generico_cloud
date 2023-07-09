@@ -48,10 +48,10 @@ char            wifi_password[63]   = "iotmaster84";    // Contraseña de la Red
 // -------------------------------------------------------------------
 // Zona configuración MQTT 
 // ------------------------------------------------------------------- 
-char            mqtt_server[39]     = "164.152.53.131"; // Servidor del MQTT Broker
+char            mqtt_server[39]     = "iot01.iothost.org"; // Servidor del MQTT Broker
 int             mqtt_port           = 1883;             // Puerto servidor MQTT Broker 1883
-char            mqtt_id[30]         = "000000001";      // Cliente ID MQTT Broker       
-char            mqtt_user[30]       = "emqx";           // Usuario MQTT Broker 
+char            mqtt_id[30]         = "11111111";      // Cliente ID MQTT Broker       
+char            mqtt_user[30]       = "yamir1984";           // Usuario MQTT Broker 
 char            mqtt_password[39]   = "public";         // Contraseña del MQTT Broker
 int             mqtt_time_interval  = 30000;            // Tiempo de envio por MQTT en segundos 30 Segundos
 // -------------------------------------------------------------------
