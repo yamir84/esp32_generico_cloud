@@ -38,7 +38,7 @@ char            wifi_password[63]   = "password_red_wifi";          // Contrase�
 // ------------------------------------------------------------------- 
 char            mqtt_server[39]     = "iot01.iothost.org";  // Servidor del MQTT Broker
 int             mqtt_port           = 1883;                 // Puerto servidor MQTT Broker 1883
-char            mqtt_id[30]         = "000000001";          // Cliente ID MQTT Broker       
+char            mqtt_id[30]         = "tu_serialnumber";    // Cliente ID MQTT Broker       
 char            mqtt_user[30]       = "tu_usuario";         // Usuario MQTT Broker 
 char            mqtt_password[39]   = "tu_contraseña";      // Contraseña del MQTT Broker
 int             mqtt_time_interval  = 30000;                // Tiempo de envio por MQTT en segundos 30 Segundos
@@ -47,7 +47,7 @@ int             mqtt_time_interval  = 30000;                // Tiempo de envio p
 ## ACCEDER A LA PLATAFORMA IOT DE INTEGRACIÓN
 *********
 * 3 - https://iot02.iothost.org
-* 4 - Crearte un usuario en el formulario de registro
+* 4 - Crearte un usuario en el formulario de registro | https://iot02.iothost.org/register
 * 5 - Ir a dispositivos | registrar nuevo | llenar los parámetros y el número de serie, verificar que no exista, asignado en ``(mqtt_id)``
 * 6 - Disfrutar del DEMO
 *********
